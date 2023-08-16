@@ -30,7 +30,7 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 
 ### What I Do
 
-- 💻 [Current Job/Role]: At [Company/Organization], I'm responsible for [Brief Description of Your Responsibilities]. I'm always excited to collaborate on [Type of Projects You Work On].
+- 💻 Student Researcher: At Chapman University MLAT Lab, I'm responsible for creating and testing models on various projects for. I'm always excited to explore creative ways to solve real-world problems with Machine Learning.
 - 🌱 Learning: I'm currently diving deeper into [Technologies/Frameworks/Languages You're Learning], with a focus on [Your Learning Focus].
 - 🚀 Side Projects: In my spare time, I love working on side projects such as [Brief Description of Side Projects], where I get to experiment with [Technologies/Concepts Used in Projects].
 

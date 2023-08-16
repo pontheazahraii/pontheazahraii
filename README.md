@@ -42,7 +42,7 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 
 Feel free to reach out if you're interested in exploring software development or just want to chat! 🌟
 
-## 🛠️ Languages and Tools
+## 🛠️ Languages and Tools 🛠️
 <div id="tools" align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" **alt="Python" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" **alt="C++" width="40" height="40"/>

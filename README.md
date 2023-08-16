@@ -21,7 +21,12 @@
   <img src="https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif" width="40%" height="auto"/>
 </div>
 
-<h2> :octocat: About Me : </h2>
+
+<h4> :octocat: About Me: </h4>
+<p>I'm a Senior Computer Science Major 👩‍💻 from California</p>
+<ul>
+  <li></li>
+</ul>
 
 <!--
 **pontheazahraii/pontheazahraii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

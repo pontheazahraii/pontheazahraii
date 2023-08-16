@@ -24,7 +24,6 @@
 
 ### :octocat: About Me
 
-<!--
 I'm a passionate [Your Profession/Interests] based in [Your Location]. With a background in [Your Relevant Background], I'm constantly exploring and learning in the world of [Your Areas of Interest].
 
 I enjoy tackling complex challenges and finding innovative solutions. My curiosity drives me to delve into new technologies and tools, helping me to stay at the forefront of [Relevant Industry/Technology Trends]. 
@@ -37,14 +36,13 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 
 ### Get in Touch
 
-- 🔗 Portfolio: [Your Portfolio Website]
-- 📧 Email: [Your Email Address]
-- 💬 LinkedIn: [Your LinkedIn Profile]
-- 🐦 Twitter: [@YourTwitterHandle]
-- 📷 Instagram: [@YourInstagramHandle]
+- 🔗 Portfolio: [My Portfolio Website](https://github.com/pontheazahraii/ResumeProjects)
+- 📧 Email: pontheazahraii@gmail.com
+- 💬 LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/pontheazahraii/)
 
 Feel free to reach out if you're interested in [Collaborating/Networking/Projects] or just want to chat about [Shared Interests]! 🌟
 
+<!--
 **pontheazahraii/pontheazahraii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:

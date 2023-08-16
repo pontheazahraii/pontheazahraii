@@ -1,11 +1,13 @@
 <div id="header" align="center">
   <img src="https://github.com/pontheazahraii/pontheazahraii/assets/96713419/e831515a-d734-4519-bed2-a3ae2e799d68"/>
 </div>
+
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/pontheazahraii/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
+
 <div id="profile" align="center">
   <img src="https://komarev.com/ghpvc/?username=pontheazahraii&style=flat-square&color=blue" alt="Profile Views"/>
 </div>

@@ -22,19 +22,19 @@
 </div>
 
 
-### :octocat: About Me
+## :octocat: About Me
 
 I'm a passionate student based in Orange County, California. With a background in Computer Science, I'm constantly exploring and learning in the world of Software Engineering.
 
 I enjoy tackling complex challenges and finding innovative solutions. My curiosity drives me to delve into new technologies and tools, helping me to stay at the forefront of technology and software development. 
 
-### 🧠 What I Do
+## 🧠 What I Do
 
 - 💻 Student Researcher: At Chapman University MLAT Lab, I'm responsible for creating and testing models on various projects for. I'm always excited to explore creative ways to solve real-world problems with Machine Learning.
 - 🌱 Learning: I'm currently diving deeper into Computing Systems as I am pursuing my Master's in Electrical Engineering and Computer Science.
 - 🚀 Side Projects: In my spare time, I love working on side projects such as making programs that make my day-to-day life simpler, where I get to experiment with different Python libraries.
 
-### 📱 Get in Touch
+## 📱 Get in Touch
 
 - 🔗 Portfolio: [My Portfolio Website](https://github.com/pontheazahraii/ResumeProjects)
 - 📧 Email: pontheazahraii@gmail.com
@@ -42,7 +42,7 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 
 Feel free to reach out if you're interested in exploring software development or just want to chat! 🌟
 
-### 🛠️ Languages and Tools
+## 🛠️ Languages and Tools
 <div id="tools" align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" **alt="Python" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" **alt="C++" width="40" height="40"/>
@@ -62,7 +62,7 @@ Feel free to reach out if you're interested in exploring software development or
   <img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original-wordmark.svg" title="Jira" **alt="Jira" width="40" height="40"/>
 </div>
 
-### 🔥 My Stats
+## 🔥 My Stats
 <div id="stats" align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=pontheazahraii&theme=dark&background=000000"/>
   <p></p>

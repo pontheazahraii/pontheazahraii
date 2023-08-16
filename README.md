@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://github.com/pontheazahraii/pontheazahraii/assets/96713419/e831515a-d734-4519-bed2-a3ae2e799d68"/>
+  <img src="https://giphy.com/gifs/tmnt-teenage-mutant-ninja-turtles-cFdHXXm5GhJsc" width="100"/>
 
   <div id="badges">
     <a href="https://www.linkedin.com/in/pontheazahraii/">

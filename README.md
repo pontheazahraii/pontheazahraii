@@ -43,7 +43,7 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 Feel free to reach out if you're interested in exploring software development or just want to chat! 🌟
 
 ### 🛠️ Languages and Tools
-<div id="tools" align="center">
+<div id="tools">
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" **alt="Python" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" **alt="C++" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
@@ -63,3 +63,4 @@ Feel free to reach out if you're interested in exploring software development or
 </div>
 
 ### 🔥 My Stats
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)

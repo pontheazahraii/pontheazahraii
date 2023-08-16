@@ -40,4 +40,4 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 - 📧 Email: pontheazahraii@gmail.com
 - 💬 LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/pontheazahraii/)
 
-Feel free to reach out if you're interested in [Collaborating/Networking/Projects] or just want to chat about [Shared Interests]! 🌟
+Feel free to reach out if you're interested in exploring software development or just want to chat! 🌟

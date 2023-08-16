@@ -22,7 +22,7 @@
 </div>
 
 
-## :octocat: About Me :octocat:
+## :octocat: About Me 
 
 I'm a passionate student based in Orange County, California. With a background in Computer Science and Data Science, I'm constantly exploring and learning in the world of Software Engineering.
 

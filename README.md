@@ -28,7 +28,7 @@ I'm a passionate student based in Orange County, California. With a background i
 
 I enjoy tackling complex challenges and finding innovative solutions. My curiosity drives me to delve into new technologies and tools, helping me to stay at the forefront of technology and software development. 
 
-## 👩‍💼 What I Do
+## 👩‍💼 What I Do 👩‍💼
 
 - 💻 Student Researcher: At Chapman University MLAT Lab, I'm responsible for creating and testing models on various projects for. I'm always excited to explore creative ways to solve real-world problems with Machine Learning.
 - 🌱 Learning: I'm currently diving deeper into Computing Systems as I am pursuing my Master's in Electrical Engineering and Computer Science.

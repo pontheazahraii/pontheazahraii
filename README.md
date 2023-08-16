@@ -26,7 +26,7 @@
 
 I'm a passionate student based in Orange County, California. With a background in Computer Science, I'm constantly exploring and learning in the world of Software Engineering.
 
-I enjoy tackling complex challenges and finding innovative solutions. My curiosity drives me to delve into new technologies and tools, helping me to stay at the forefront of [Relevant Industry/Technology Trends]. 
+I enjoy tackling complex challenges and finding innovative solutions. My curiosity drives me to delve into new technologies and tools, helping me to stay at the forefront of technology and software development. 
 
 ### What I Do
 

@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://github.com/pontheazahraii/pontheazahraii/assets/96713419/e831515a-d734-4519-bed2-a3ae2e799d68)"/>
+  <img src="https://github.com/pontheazahraii/pontheazahraii/assets/96713419/e831515a-d734-4519-bed2-a3ae2e799d68"/>
 </div>
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/pontheazahraii/">

@@ -42,6 +42,13 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 
 Feel free to reach out if you're interested in exploring software development or just want to chat! 🌟
 
+## 🔥 My Stats 
+<div id="stats" align="center">
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=pontheazahraii&theme=dark&background=000000"/>
+  <p></p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pontheazahraii&layout=compact&theme=vision-friendly-dark"/>
+</div>
+
 ## 🛠️ Languages and Tools 
 <div id="tools" align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" **alt="Python" width="40" height="40"/>
@@ -60,11 +67,4 @@ Feel free to reach out if you're interested in exploring software development or
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original-wordmark.svg" title="Arduino" **alt="Arduino" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original-wordmark.svg" title="Jira" **alt="Jira" width="40" height="40"/>
-</div>
-
-## 🔥 My Stats 
-<div id="stats" align="center">
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=pontheazahraii&theme=dark&background=000000"/>
-  <p></p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pontheazahraii&layout=compact&theme=vision-friendly-dark"/>
 </div>

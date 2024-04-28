@@ -30,6 +30,27 @@ nav {
     padding: 0 1rem;
 }
 
+.logo:hover .img-dark {
+    display: inline;
+}
+
+.logo:hover .img-light {
+    display: none;
+}
+
+.img-dark {
+    display: none; 
+}
+
+
+.img-light {
+    display: inline; 
+}
+
+nav img {
+    vertical-align: text-bottom;
+}
+
 nav a {
     text-decoration: none;
     color: light-dark(#2b521c, #b5db9a);
@@ -86,5 +107,22 @@ nav a:hover {
 @media screen and (max-width: 760px) {
     .hero-container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .img-dark {
+        display: inline;
+    }
+    .img-light {
+        display: none;
+    }
+
+    .logo:hover .img-dark {
+        display: none;
+    }
+    
+    .logo:hover .img-light {
+        display: inline;
     }
 }

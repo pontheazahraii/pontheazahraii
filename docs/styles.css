@@ -83,7 +83,7 @@ nav a:hover {
     left: 50%; 
     max-width: 100%; 
     height: auto;
-    transform: translate(5%, 40%);
+    transform: translate(0%, 40%);
     color: light-dark(#2b521c, #b5db9a);
     padding: 0rem 6rem; 
 }

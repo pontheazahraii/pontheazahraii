@@ -29,14 +29,9 @@ nav {
     font-style: italic;
     font-size: 30px;
     padding: 0 1rem;
-}
-
-.logo:hover .img-dark {
-    display: inline;
-}
-
-.logo:hover .img-light {
-    display: none;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .img-dark {
@@ -44,7 +39,17 @@ nav {
 }
 
 .img-light {
-    display: inline; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:hover .img-dark {
+    display: inline-flex;
+}
+
+.logo:hover .img-light {
+    display: none;
 }
 
 nav img {
@@ -73,18 +78,21 @@ nav a:hover {
 }
 
 .column-left {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    display: absolute; 
+    top: 50%; 
+    left: 50%; 
+    max-width: 100%; 
+    height: auto;
+    transform: translate(5%, 40%);
     color: light-dark(#2b521c, #b5db9a);
     padding: 0rem 6rem; 
 }
 
 .column-left h1 {
     margin-bottom: 0.3rem;
-    font-size: 4rem; 
+    font-size: 5rem; 
     font-style: italic;
+    color: light-dark(#431C52, #C09ADB); 
 }
 
 .column-left p {
@@ -118,7 +126,9 @@ nav a:hover {
 
 @media (prefers-color-scheme: dark) {
     .img-dark {
-        display:inline;
+        display: inline-flex; 
+        align-items: center;
+        justify-content: center;
     }
     .img-light {
         display: none;
@@ -129,6 +139,6 @@ nav a:hover {
     }
     
     .logo:hover .img-light {
-        display: inline;
+        display: inline-flex; 
     }
 }

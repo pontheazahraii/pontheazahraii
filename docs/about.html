@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <title>About Me</title>
 </head>
 <body>
+    <div class="stars"></div>
+    <script src="./stars.js"></script>
     <nav>
         <div class="logo">
             <a href="https://github.com/pontheazahraii" target="_blank">
@@ -22,6 +25,17 @@
             <a href="./contact.html">Contact</a>
         </div>
     </nav>
-    <h1>About</h1>
+    <div class="title-container">
+        <h1><span class="auto-type"></span></h1>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["About Me"], 
+                typeSpeed: 100, 
+                backSpeed: false
+            })
+        </script>
+    </div>
 </body>
 </html>

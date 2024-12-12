@@ -24,19 +24,21 @@
 
 ## :octocat: About Me 
 
-I'm a passionate student based in Orange County, California. With a background in Computer Science and Data Science, I'm constantly exploring and learning in the world of Software Engineering.
+I'm a passionate student based in Orange County, California. With a background in Computer Science and Data Science, I'm constantly exploring and learning in the world of Machine Learning.
 
-I enjoy tackling complex challenges and finding innovative solutions. My curiosity drives me to delve into new technologies and tools, helping me to stay at the forefront of technology and software development. 
+I enjoy tackling complex challenges and finding innovative solutions. My curiosity drives me to delve into new technologies and tools, helping me to stay at the forefront of technology and artificial intelligence.  
 
 ## 👩‍💼 What I Do 
 
-- 💻 Student Researcher: At Chapman University MLAT Lab, I'm responsible for creating and testing models on various projects for. I'm always excited to explore creative ways to solve real-world problems with Machine Learning.
-- 🌱 Learning: I'm currently diving deeper into Computing Systems as I am pursuing my Master's in Electrical Engineering and Computer Science.
-- 🚀 Side Projects: In my spare time, I love working on side projects such as making programs that make my day-to-day life simpler, where I get to experiment with different Python libraries.
+- 🏢 Machine Learning and Algorithm Development Engineer: At the Hansji Corporation, I'm responsible for developing Machine Learning models and designing decision-making algorithms to help automate the hospitality industry. 
+- 💻 Graduate Research Assistant: At Chapman University Estakri Lab, I'm responsible for developing tandem neural networks to tackle inverse design problems in modern optics and nanophotonics. I'm always excited to explore creative ways to solve real-world problems with Machine Learning.
+- 🌱 Learning: I'm diving deeper into Data Science and Computing Systems as I pursue my Master's in Electrical Engineering and Computer Science.
+- 🚀 Side Projects: In my spare time, I love working on side projects such as making programs that simplify my day-to-day life, where I experiment with different Python libraries. Currently, I am working on an [open source Cookbook](https://github.com/pontheazahraii/recipes) and developing an API to go along with it! 
 
 ## 📱 Get in Touch 
 
 - 🔗 Portfolio: [My Portfolio Website](https://github.com/pontheazahraii/ResumeProjects)
+- 🖱️ Website: [My Personal Website](https://pontheazahraii.github.io/pontheazahraii/)
 - 📧 Email: pontheazahraii@gmail.com
 - 💬 LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/pontheazahraii/)
 

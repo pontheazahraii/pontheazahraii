@@ -32,6 +32,7 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 
 - 🏢 Machine Learning and Algorithm Development Engineer: At the Hansji Corporation, I'm responsible for developing Machine Learning models and designing decision-making algorithms to help automate the hospitality industry. 
 - 💻 Graduate Research Assistant: At Chapman University Estakri Lab, I'm responsible for developing tandem neural networks to tackle inverse design problems in modern optics and nanophotonics. I'm always excited to explore creative ways to solve real-world problems with Machine Learning.
+- 📃 Blog Posts: Every now and then I run into some issue that I just can't seem to find a proper guide for. So, I just write my own. Check out my [Medium profile](https://medium.com/@pontheazahraii) to see some of my articles. 
 - 🌱 Learning: I'm diving deeper into Data Science and Computing Systems as I pursue my Master's in Electrical Engineering and Computer Science.
 - 🚀 Side Projects: In my spare time, I love working on side projects such as making programs that simplify my day-to-day life, where I experiment with different Python libraries. Currently, I am working on an [open source Cookbook](https://github.com/pontheazahraii/recipes) and developing an API to go along with it! 
 

@@ -40,7 +40,7 @@ I enjoy tackling complex challenges and finding innovative solutions. My curiosi
 
 - 🔗 Portfolio: [My Portfolio Website](https://github.com/pontheazahraii/ResumeProjects)
 - 🖱️ Website: [My Personal Website](https://pontheazahraii.github.io/pontheazahraii/)
-- 📧 Email: pontheazahraii@gmail.com
+- 📧 Email: ponthea@zahraii.com
 - 💬 LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/pontheazahraii/)
 
 Feel free to reach out if you're interested in exploring software development or just want to chat! 🌟

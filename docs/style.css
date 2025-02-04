@@ -1,0 +1,25 @@
+header {
+    background-color:aqua; 
+    padding: 15px; 
+}
+
+main {
+    background-color: lightblue;
+    padding: 20px; 
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+nav {
+    text-align: right;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}

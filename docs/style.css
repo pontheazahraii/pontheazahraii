@@ -32,3 +32,8 @@ nav {
 .column {
     flex: 50%;
 }
+
+.column-right {
+    flex: 50%;
+    text-align: right;
+}

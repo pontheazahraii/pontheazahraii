@@ -42,6 +42,12 @@ nav {
     
 }
 
+.star {
+    position: absolute;
+    pointer-events: none;
+}
+
+
 .stars {
     position: fixed;
     top: 0; 

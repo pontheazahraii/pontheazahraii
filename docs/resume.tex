@@ -1,7 +1,7 @@
 %---------------------------------------------%
 %--------          MY RESUME          --------%
 %---------------------------------------------%
-\documentclass[letter]{article}
+\documentclass[letter,9pt]{article}
 
 %% PACKAGES %%
 \usepackage[english]{babel} % language support
@@ -9,229 +9,107 @@
 \usepackage[bottom=0.4in, top=0.5in, left=0.5in, right=0.5in]{geometry} % set all margins to 0.5 inches
 \usepackage{multicol} % multiple columns
 \usepackage{enumitem} % lists 
+\usepackage{microtype} % better spacing
+
+%% GLOBAL FORMATTING %%
+\setlength{\parindent}{0pt} % Remove paragraph indentation globally
 
 %% FORMATING %%
 \pagestyle{empty} % No header, footers, or page number
-\setlist{leftmargin=0.15in} % add margin for lists
+\linespread{0.92}
+\setlist{leftmargin=0.12in,itemsep=0pt,topsep=1pt,parsep=0pt} % tighter lists
 
 \begin{document}
     %% HEADER %%
     \begin{center}
-        {\huge \textbf{PONTHEA ZAHRAII}} \\
-        (949) 397-7414 $\bullet$  pontheazahraii@gmail.com $\bullet$ www.linkedin.com/in/pontheazahraii $\bullet$ https://github.com/pontheazahraii
+        {\Large \textbf{PONTHEA ZAHRAII}} \\
+        {\small (949) 397-7414 $\bullet$ pontheazahraii@gmail.com $\bullet$ www.linkedin.com/in/pontheazahraii $\bullet$ github.com/pontheazahraii}
     \end{center}
-
+    
+    \vspace{4pt}
     %% EDUCATION %%
-    \noindent {\large \textbf{EDUCATION}}
-    \vspace{4pt}
-    \hrule height 1pt
-    \vspace{4pt}
-    \noindent
-    \begin{minipage}[c]{0.75\linewidth}
-        \noindent \textbf{Chapman University, Fowler School of Engineering} \\
-        \noindent Master of Science, Electrical Engineering and Computer Science \\
-        \noindent \textit{Thesis: Implementation of Residual Tandem Neural Networks in Inverse Photonic Design} \\
-        \noindent Bachelor of Science, Computer Science, Neuroscience Minor \\
-    \end{minipage}
-    \begin{minipage}[c]{0.24\linewidth}
-        \vspace*{-\baselineskip}
-        \begin{flushright}
-            \textbf{Orange, CA} \\
-            GPA 4.00 \textbar\ May 2025 \\
-            ~\\
-            GPA 3.89 \textbar\ May 2024 \\
-        \end{flushright}
-    \end{minipage}
-
-    %% RELEVANT COURSES %%
-    \noindent {\large \textbf{RELEVANT COURSES}} 
-    \vspace{4pt}
-    \hrule height 1pt
-    \vspace{4pt}
-    \noindent
-    \begin{minipage}[c]{0.37\linewidth}
-        \noindent Data Structures \& Algorithms (C++) \\
-        \noindent High Performance Computing (C/C++) \\
-    \end{minipage}
-    \begin{minipage}[c]{0.4\linewidth}
-        \noindent Statistical Machine Learning (Python, R) \\
-        \noindent Database Management (SQL, Python) \\
-    \end{minipage}
-    \begin{minipage}[c]{0.35\linewidth}
-        \noindent Computer Vision (Python) \\
-        \noindent Deep Learning (Python) \\
-    \end{minipage}
+    \noindent \textbf{EDUCATION} \hrulefill
+    \vspace{2pt}
     
+    \noindent
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+        \textbf{Chapman University, Fowler School of Engineering} & Orange, CA \\
+        Master of Science, Electrical Engineering and Computer Science & GPA 4.00 | May 2025 \\
+        \textit{Thesis: Implementation of Residual Tandem Neural Networks in Inverse Photonic Design} & ~ \\
+        \textit{Valedictorian, Graduation Keynote Speaker} & ~ \\
+        Bachelor of Science, Computer Science, Neuroscience Minor & GPA 3.89 | May 2024 \\
+        \textit{Graduation Keynote Speaker} & ~ \\
+    \end{tabular*}
+
+    \vspace{6pt}
     %% TECHNICAL SKILLS %%
-    \noindent {\large \textbf{TECHNICAL SKILLS}} 
-    \vspace{4pt}
-    \hrule height 1pt
-    \vspace{4pt}
-    \noindent
-    \begin{minipage}[c]{0.21\linewidth}
-        \noindent Python \\
-        \noindent Machine Learning \\
-    \end{minipage}
-    \begin{minipage}[c]{0.26\linewidth}
-        \noindent Google Cloud Platform \\
-        \noindent SQL/NoSQL \\
-    \end{minipage}
-    \begin{minipage}[c]{0.11\linewidth}
-        \noindent Git \\
-        \noindent \LaTeX \\
-    \end{minipage}
-    \begin{minipage}[c]{0.21\linewidth}
-        \noindent Bayesian Statistics \\
-        \noindent Deep Learning \\
-    \end{minipage}
-    \begin{minipage}[c]{0.21\linewidth}
-        \noindent Artificial Intelligence \\
-        \noindent Tensorflow/Keras \\
-    \end{minipage}
-
-    %% PROFESSIONAL EXPERIENCE & RESEARCH %%
-    \noindent {\large \textbf{PROFESSIONAL EXPERIENCE \& RESEARCH}}
-    \vspace{4pt}
-    \hrule height 1pt
-    \vspace{4pt}
-    \noindent
-    % Estakhri Lab %
-    \begin{minipage}[c]{0.7\linewidth}
-        \noindent Chapman University, Orange, CA
-    \end{minipage}
-    \begin{minipage}[c]{0.29\linewidth}
-        \begin{flushright}
-            August 2023 - Present
-        \end{flushright}
-    \end{minipage}
-    \noindent Estakhri Lab, Fowler School of Engineering \\
-    \noindent \textbf{Student Researcher} 
-    \vspace{4pt}
-    \hrule 
-    \vspace{4pt}
-    \noindent
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Modeled complex physics equations using Machine Learning libraries to work as a tool for physics research.
-        % \item Analyzed papers and built models based on research to solve problems in the physics and machine learning world. 
-        \item Fine tuned models to work with good and bad data to make sure models are able to work in real world sitations. 
-    \end{itemize} 
-    \medskip
-
-    %% RELEVANT PROJECTS %%
-    \noindent {\large \textbf{RELEVANT PROJECTS}}
-    \vspace{4pt}
-    \hrule height 1pt
-    \vspace{4pt}
-    % LambdaNat5 %
-    \noindent
-    \begin{minipage}[c]{0.7\linewidth}
-        \noindent LambdaNat5
-    \end{minipage}
-    \begin{minipage}[c]{0.29\linewidth}
-        \begin{flushright}
-            November 2023 - December 2023
-        \end{flushright}
-    \end{minipage}
-    \vspace{4pt}
-    \hrule 
-    \vspace{4pt}
-    \noindent
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Developed an simple interpreter for a simple functional programming language using Haskell.  
-        \item Used knowledge of Lambda Calculus to create working conditionals, lists, arithmetic, and recursive functions. 
-        \item Defined my own programs using the LambdaNat5 language using the operational semantics I defined as well as implementing them in Haskell.
-    \end{itemize} 
-    \medskip 
-
-    % NFA To DFA Converter % 
-    \noindent
-    \begin{minipage}[c]{0.7\linewidth}
-        \noindent NFA to DFA Converter 
-    \end{minipage}
-    \begin{minipage}[c]{0.29\linewidth}
-        \begin{flushright}
-            January 2023
-        \end{flushright}
-    \end{minipage}
-    \vspace{4pt}
-    \hrule 
-    \vspace{4pt}
-    \noindent
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Constructed a Finite State Automaton reader/writer using maps in C++.
-        \item Used advanced coding techniques to recursively distinguish deterministic states in code through detailed classes and object-oriented programming.
-    \end{itemize} 
-    \medskip 
-
-    % Deathify Website and Database % 
-    \noindent
-    \begin{minipage}[c]{0.7\linewidth}
-        \noindent Spotify Helper App Website and Database 
-    \end{minipage}
-    \begin{minipage}[c]{0.29\linewidth}
-        \begin{flushright}
-            November 2022 - December 2022
-        \end{flushright}
-    \end{minipage}
-    \vspace{4pt}
-    \hrule 
-    \vspace{4pt}
-    \noindent
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Deployed Spotify companian app with functional front end and backend that provides information for an artist and automatically creates a playlist containing artists that share similar attributes. 
-        \item Accessed data using Python's Spotify and Genius APIs, and integrated MySQL database to store accessed data.
-        \item Gained understanding of product life cycle, including app design, development, and delivery. 
-        \item Scrapped data off the internet using Selenium in Python to build a unique dataset for the application. \\
-    \end{itemize} 
+    \noindent \textbf{TECHNICAL SKILLS} \hrulefill
+    \vspace{2pt}
     
-
-    %% ACADEMIC ACHIEVEMENTS & ACTIVITIES %%
-    \noindent {\large \textbf{ACADEMIC ACHIEVEMENTS \& ACTIVITIES}}
-    \vspace{4pt}
-    \hrule height 1pt
-    \vspace{4pt}
     \noindent
-    \begin{minipage}[c]{0.7\linewidth}
-        \noindent Graduation Key Note Speaker \\
-        \noindent PantherHacks 2025---Healthcare Track, 1st Place \\
-        \noindent PantherHacks 2025---Peoples's Choice, 3rd Place \\
-        \noindent 3-MT Competition, 3rd Place \\
-        \noindent Fowler School of Engineering Circuit \\
-        \noindent Institute of Electrical and Electronics Engineers, Vice President \\
-        \noindent Computer Science Club, Vice President \\
-        \noindent Panther Cage Award, ShotBot \\
-        \noindent Undergraduate Neuroscience Society, President \\
-        \noindent Iranian Student Cultural Organization, President
-    \end{minipage}
-    \begin{minipage}[c]{0.29\linewidth}
-        \begin{flushright}
-            \noindent May 2024, May 2025 \\
-            \noindent Spring 2025 \\
-            \noindent Spring 2025 \\
-            \noindent Spring 2025 \\
-            \noindent Spring 2024 - Current \\
-            \noindent Fall 2023 - Current \\
-            \noindent Spring 2022 - Current \\
-            \noindent October 2022 \\
-            \noindent Fall 2022 - Current \\
-            \noindent Fall 2021 - Current 
-        \end{flushright}
-    \end{minipage}
+    \textbf{Languages:} Python, C/C++, SQL/NoSQL \\
+    \textbf{ML/Vision:} TensorFlow, OpenCV, Open3D, 3D Reconstruction, Point Cloud Processing, Instance Segmentation, Depth Estimation \\
+    \textbf{DevOps:} Git, CI/CD, GitHub Actions, Google Cloud Platform
 
-    %% CERTIFICATIONS %%
-    \noindent {\large \textbf{CERTIFICATIONS}} 
-    \vspace{4pt}
-    \hrule height 1pt
-    \vspace{4pt}
+    \vspace{6pt}
+    %% PUBLICATIONS %%
+    \noindent \textbf{PUBLICATIONS} \hrulefill
+    \vspace{2pt}
+    
+    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+        \item Estakhri, N.M., Zahraii, P., Kashanchi, S., Estakhri, N.M. (2024). ``Predictive residual neural networks for optical trapping of small particles.'' \textit{Optical Trapping and Optical Micromanipulation XXI}, SPIE, Vol. 13112, pp. 111--116.
+        \item Zahraii, P., Kashanchi, S., Estakhri, N.M., Estakhri, N.M. (2025). ``Machine learning-driven prediction and inverse design of optical forces near gradient metasurfaces.'' \textit{Optical Trapping and Optical Micromanipulation XXII}, SPIE, PC135800J.
+        \item Zahraii, P., Kashanchi, S., Estakhri, N.M., Estakhri, N.M. (2025). ``A Deep Learning Framework for Prediction and Inverse Design of Nanoscale Optical Forces near Gradient Metasurfaces.'' \textit{2025 Nineteenth International Congress on Artificial Materials for Novel Wave Phenomena (Metamaterials)}, IEEE, X--389.
+        \item Zahraii, P.A. (2025). ``Implementation of Residual Tandem Neural Networks for Photonic Inverse Design.'' Master's Thesis, Chapman University.
+    \end{itemize}
+
+    \vspace{6pt}
+    %% PROFESSIONAL EXPERIENCE %%
+    \noindent \textbf{PROFESSIONAL EXPERIENCE \& RESEARCH} \hrulefill
+    \vspace{2pt}
+
     \noindent
-    \begin{minipage}[c]{0.7\linewidth}
-        \noindent Google Cloud Professional ML Engineer Certification \\
-    \end{minipage}
-    \begin{minipage}[c]{0.29\linewidth}
-        \vspace*{-\baselineskip}
-        \begin{flushright}
-            In Progress \\
-        \end{flushright}
-    \end{minipage}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+        \textbf{Hansji Corporation}, Irvine, CA & June 2025 -- Present \\
+    \end{tabular*}
+    \noindent \textit{Machine Learning Engineer II}
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Leading design and implementation of computer-vision and ML systems for advanced automation platforms
+        \item Developed perception pipelines integrating 3D vision, RGB-D sensors, depth sensing, and neural segmentation for high-fidelity scene understanding
+        \item Calibrated and optimized RGB-D sensor configurations for spatial alignment, noise reduction, and multi-view fusion across varied environments
+        \item Implemented GPU-accelerated segmentation and mesh-generation with parallelized reconstruction workflows for large-scale 3D data processing
+        \item Authored and maintain internal Python package standardizing data handling, visualization, and 3D-processing utilities; integrated YOLO and SAM-based segmentation
+        \item Designed and deployed CI/CD pipelines with GitHub Actions, automated testing, semantic versioning, and comprehensive documentation
+        \item Delivered production-grade software ecosystem ensuring reproducibility, maintainability, and scalability across engineering domains
+        \item Mentored software-engineering intern on frontend architecture; collaborate across software, mechanical, and research teams
+    \end{itemize}
+    \vspace{6pt}
 
+    \noindent
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+        \textbf{Hansji Corporation}, Anaheim, CA & June 2024 -- June 2025 \\
+    \end{tabular*}
+    \noindent \textit{Machine Learning Engineer I}
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Led design and implementation of ML systems powering the company's Revenue Management System (RMS) within Business Intelligence team
+        \item Developed predictive models and algorithms for dynamic pricing, booking pace forecasting, and revenue optimization across multi-property portfolio
+        \item Engineered full MLOps pipeline automating data ingestion, feature engineering, model training, validation, and deployment
+        \item Integrated RMS with Google Cloud Platform enabling live rate updates and real-time pricing adjustments in production systems
+        \item Collaborated with BI analysts and leadership to translate algorithmic outputs into business insights and strategic revenue goals
+        \item Conducted feature analysis, model benchmarking, and A/B testing to evaluate performance and revenue impact
+        \item Transformed RMS into AI-powered, cloud-integrated forecasting engine; standardized ML development through version-controlled pipelines
+    \end{itemize}
+    \vspace{6pt}
+
+    \noindent
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+        \textbf{Chapman University, Estakhri Lab}, Orange, CA & August 2023 -- Present \\
+    \end{tabular*}
+    \noindent \textit{Researcher}
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Researched inverse design problems in photonics using residual tandem neural networks (forward + inverse models)
+        \item Implemented residual blocks to stabilize training and improve accuracy for ill-posed inverse mappings
+        \item Built data pipelines and training/validation workflows; tuned hyperparameters and evaluated generalization under noise
+        \item Published peer-reviewed papers; contributed methods, experiments, and writing
+    \end{itemize}
 \end{document}

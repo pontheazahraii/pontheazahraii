@@ -1,0 +1,55 @@
+name: Release Resume
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "docs/resume.tex"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    name: Build PDF and Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compile resume PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: docs/resume.tex
+          output_directory: build
+          args: -interaction=nonstopmode -halt-on-error -jobname=PontheaZahraii
+
+      - name: Verify PDF produced
+        run: |
+          test -f build/PontheaZahraii.pdf
+          ls -l build/PontheaZahraii.pdf
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PontheaZahraii.pdf
+          path: build/PontheaZahraii.pdf
+          if-no-files-found: error
+
+      - name: Set release tag and name
+        run: |
+          echo "TAG=resume-$(date -u +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+          echo "NAME=Resume $(date -u +'%Y-%m-%d %H:%M:%S') UTC" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.TAG }}
+          name: ${{ env.NAME }}
+          body: |
+            Automated resume release from main.
+            Source: docs/resume.tex
+          files: build/PontheaZahraii.pdf

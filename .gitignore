@@ -1,1 +1,15 @@
+# VS Code Settings 
 .vscode
+
+# LaTeX build artifacts 
+*.aux
+*.log
+
+# Build directory
+build/
+
+# Ignore PDFs by default
+*.pdf
+
+# Allow published PDFs in docs/
+!docs/*.pdf

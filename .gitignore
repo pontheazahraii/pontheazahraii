@@ -11,5 +11,5 @@ build/
 # Ignore PDFs by default
 *.pdf
 
-# Allow published PDFs in docs/
-!docs/*.pdf
+# MacOS Files 
+.DS_Store

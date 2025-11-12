@@ -24,6 +24,7 @@ jobs:
           root_file: docs/resume.tex
           output_directory: build
           args: -interaction=nonstopmode -halt-on-error -jobname=PontheaZahraii
+          latexmk_use_xelatex: true
 
       - name: Verify PDF produced
         run: |

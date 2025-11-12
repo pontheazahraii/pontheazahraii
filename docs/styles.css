@@ -30,12 +30,15 @@ body{background:var(--bg); color:var(--text); font:16px/1.68 "Nunito Sans",syste
 .star.delay3{ animation-delay:3s }
 
 .site-header{position:sticky;top:0;background:rgba(11,12,16,.8); backdrop-filter:saturate(160%) blur(6px); border-bottom:1px solid var(--border); z-index:10}
-.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.site-header .container{display:flex;align-items:center;justify-content:space-between; position:relative}
 .site-title{font-size:1.1rem;font-weight:700;letter-spacing:.3px}
 h1,h2,h3,h4,h5,h6,.site-title{font-family:"Outfit",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 .site-nav a{color:#e8ecff;text-decoration:none;margin-left:1rem;font-weight:700;letter-spacing:.2px;transition:color .2s ease, border-color .2s ease; border-bottom:2px solid transparent; padding-bottom:8px}
 .site-nav a:hover{color:#ffffff; border-bottom-color: var(--brand-2)}
 .site-nav a.active{color:#ffffff; border-bottom-color: var(--brand)}
+
+/* Mobile-only Resume link in header */
+.mobile-resume{ display:none }
 
 .hero{position:relative; z-index:1; padding:64px 0 24px; border-bottom:1px solid var(--border); background:linear-gradient(180deg, rgba(79,140,255,.12), rgba(124,247,212,.05) 40%, transparent)}
 .hero-container{display:grid; grid-template-columns:1.2fr .8fr; gap:24px; align-items:center}
@@ -72,9 +75,27 @@ h1,h2,h3,h4,h5,h6,.site-title{font-family:"Outfit",system-ui,-apple-system,Segoe
 .site-footer .footer-links a:hover{color:var(--text)}
 .site-footer .footer-links .icon{width:16px;height:16px;display:inline-block;opacity:.9}
 
+/* Hamburger toggle (hidden on desktop) */
+.nav-toggle{ display:none; background:none; border:0; padding:8px; margin-left:auto; cursor:pointer }
+.nav-toggle span{ display:block; width:22px; height:2px; background:#e8ecff; margin:5px 0; transition:transform .2s ease, opacity .2s ease }
+.site-header.nav-open .nav-toggle span:nth-child(1){ transform:translateY(7px) rotate(45deg) }
+.site-header.nav-open .nav-toggle span:nth-child(2){ opacity:0 }
+.site-header.nav-open .nav-toggle span:nth-child(3){ transform:translateY(-7px) rotate(-45deg) }
+
 @media (max-width:720px){
-  .site-nav{display:none}
-  .section{padding:44px 0}
+  .nav-toggle{ display:inline-block }
+  .site-nav{display:none; position:absolute; top:100%; right:1rem; left:1rem; background:rgba(11,12,16,.95); border:1px solid var(--border); border-radius:10px; padding:10px; box-shadow:0 10px 30px rgba(0,0,0,.45); flex-direction:column}
+  .site-header.nav-open .site-nav{ display:flex }
+  .site-nav a{ display:block; margin:6px 8px; margin-left:0; padding:6px 0 2px; }
+  .section{padding:40px 0}
+  .mobile-resume{ display:inline-block; margin-left:auto; color:#e8ecff; text-decoration:none; font-weight:700; letter-spacing:.2px; border-bottom:2px solid transparent; padding-bottom:8px }
+  .mobile-resume:hover{ color:#ffffff; border-bottom-color: var(--brand-2) }
+  .section .container{padding:18px}
+  .hero{padding:40px 0 16px}
+  .hero-container{grid-template-columns:1fr; text-align:center; gap:16px}
+  .hero .column-right{order:-1; display:flex; justify-content:center}
+  .hero-image{width:180px; height:180px; margin:0 auto 8px}
+  .hero h1{font-size:1.8rem}
 }
 
 /* Small avatar (about page) */

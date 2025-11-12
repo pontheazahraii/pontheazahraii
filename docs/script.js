@@ -3,6 +3,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+  // Mobile nav toggle
+  const header = document.querySelector('.site-header');
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.getElementById('primary-nav');
+  if (header && toggle && nav) {
+    const setExpanded = (open) => toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    const open = () => { header.classList.add('nav-open'); setExpanded(true); };
+    const close = () => { header.classList.remove('nav-open'); setExpanded(false); };
+    const toggleOpen = () => header.classList.contains('nav-open') ? close() : open();
+    toggle.addEventListener('click', toggleOpen);
+    // Close when a nav link is clicked
+    nav.addEventListener('click', (e) => {
+      const a = e.target.closest('a');
+      if (a) close();
+    });
+    // Close on Escape
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+  }
+
   // Ensure Home link reliably scrolls to absolute top
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a[href="#top"]');

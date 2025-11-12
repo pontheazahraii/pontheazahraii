@@ -24,6 +24,8 @@ jobs:
           root_file: docs/resume.tex
           output_directory: build
           args: -interaction=nonstopmode -halt-on-error -jobname=PontheaZahraii
+          extra_system_packages: >-
+            texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
 
       - name: Verify PDF produced
         run: |

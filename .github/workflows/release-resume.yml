@@ -12,29 +12,29 @@ permissions:
 
 jobs:
   build-and-release:
-    name: Build PDF and Create Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - name: Install LaTeX packages
+        run: sudo apt-get update && sudo apt-get install -y texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
       - name: Compile resume PDF
         uses: xu-cheng/latex-action@v3
         with:
           root_file: docs/resume.tex
-          args: -interaction=nonstopmode -halt-on-error -jobname=PontheaZahraii
+          args: -interaction=nonstopmode -halt-on-error -jobname=PontheaZahraii -output-directory=docs
           latexmk_use_xelatex: true
 
       - name: Verify PDF produced
-        run: |
-          test -f docs/PontheaZahraii.pdf
-          ls -l docs/PontheaZahraii.pdf
-      - name: Upload workflow artifact
-        uses: actions/upload-artifact@v4
+        run: ls -l docs/PontheaZahraii.pdf
+
+      - uses: actions/upload-artifact@v4
         with:
           name: PontheaZahraii.pdf
           path: docs/PontheaZahraii.pdf
           if-no-files-found: error
+
       - name: Set release tag and name
         run: |
           echo "TAG=resume-$(date -u +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
@@ -49,5 +49,5 @@ jobs:
           name: ${{ env.NAME }}
           body: |
             Automated resume release from main.
-            Source: docs/resume.tex
           files: docs/PontheaZahraii.pdf
+          fail_on_unmatched_files: true

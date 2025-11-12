@@ -12,6 +12,23 @@ body{background:var(--bg); color:var(--text); font:16px/1.68 "Nunito Sans",syste
 .star{position:absolute; color:#e8eeff; opacity:.45; text-shadow:0 0 3px rgba(232,238,255,.35), 0 0 8px rgba(127,197,255,.18)}
 @keyframes twinkle{ 0%,100%{opacity:.15} 50%{opacity:.55} }
 
+/* Ensure stars always animate via classes (avoid inline animation) */
+.star{
+  animation-name: twinkle;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  will-change: opacity;
+}
+.star.d3{ animation-duration:3s }
+.star.d4{ animation-duration:4s }
+.star.d5{ animation-duration:5s }
+.star.d6{ animation-duration:6s }
+.star.d7{ animation-duration:7s }
+.star.delay0{ animation-delay:0s }
+.star.delay1{ animation-delay:1s }
+.star.delay2{ animation-delay:2s }
+.star.delay3{ animation-delay:3s }
+
 .site-header{position:sticky;top:0;background:rgba(11,12,16,.8); backdrop-filter:saturate(160%) blur(6px); border-bottom:1px solid var(--border); z-index:10}
 .site-header .container{display:flex;align-items:center;justify-content:space-between}
 .site-title{font-size:1.1rem;font-weight:700;letter-spacing:.3px}

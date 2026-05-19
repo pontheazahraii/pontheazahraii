@@ -53,6 +53,8 @@
     \noindent
     \textbf{Languages:} Python, C++, SQL, Bash
 
+    \textbf{Libraries:}
+
     \textbf{Robotics \& 3D Perception:} 
     ROS 2, TF2, RGB-D Perception, LiDAR Processing,
     Point Cloud Processing, ICP Registration,
@@ -105,14 +107,14 @@
     \textit{Summary: Build robotics perception systems for real-time 3D scene understanding, mapping, reconstruction, and safety-oriented spatial reasoning.}
     {\footnotesize
     \begin{itemize}[noitemsep, topsep=0pt]
-        \item Designed and developed end-to-end robotics perception pipelines using ROS 2, RGB-D sensors, LiDAR, Open3D, and PCL for real-time and offline 3D scene understanding.
-        \item Built systems for point-cloud generation, segmentation, classification, target point generation, geometric reconstruction, and spatial reasoning from multi-sensor perception data.
-        \item Implemented ICP-based registration, TF2 coordinate transforms, and multi-view geometric fusion workflows for scene alignment, spatial registration, and reconstruction.
-        \item Developed volumetric mapping and safety-oriented perception systems using voxelized occupancy reasoning, TSDF/NVBlox concepts, intrusion detection, and online scene understanding.
-        \item Built reusable C++ and Python perception libraries for filtering, visualization, feature extraction, registration, reconstruction, and large-scale point-cloud processing workflows.
-        \item Integrated perception systems into ROS 2 robotics stacks with sensor ingestion pipelines, topic remapping, transform-tree management, and real-time streaming workflows.
-        \item Optimized large-scale 3D processing workflows through GPU acceleration, parallelized processing, and reusable pipeline architecture.
-        \item Maintained CI/CD workflows, Dockerized development environments, and engineering documentation while collaborating across robotics, software, and research teams.
+        \item Designed and developed end-to-end robotic perception pipelines proprietary offline processing libraries in Python and C++ with wrappers for libraries and custom logic to process feature rich dense point clouds with unit testing PCL Open3D optimization with parallel processing 
+        \item Meshing Segmentation Augmentation Classification of point clouds for automated path planning 
+        \item Target Point generation + uniform normals, coverage planning edge detection -> data packaging and unpackaging pipelines 
+        \item Target point sorting + offline processing for motion planning with robodk 
+        \item Custom post processor class for ros2 control: cartesian compliance controller. Testing final robot trajectories in simulation and validation on the hardware. 
+        \item Realtime sensor data processing -> NVBlox for NAV/SLAM + safety 
+        \item 4D Lidar -> volumetric occupancy grid for intrusion detection systems (safety)
+        \item RGB-D Camera -> feature-based and global frame alignment and depth estimation measurements 
     \end{itemize}
     }
     \vspace{5pt}
@@ -125,12 +127,9 @@
     \textit{Summary: Progressed from early RMS prototyping work to ownership of production ML, forecasting, and MLOps systems for revenue optimization.}
     {\footnotesize
     \begin{itemize}[noitemsep, topsep=0pt]
-        \item Developed predictive models and decision algorithms for booking pace forecasting, dynamic pricing, pricing elasticity, and revenue optimization across a multi-property portfolio.
-        \item Built the RMS from prototype algorithms into a production ML platform through implementation of ingestion, feature engineering, training, validation, deployment, and monitoring workflows.
-        \item Designed scalable MLOps infrastructure and GCP integrations supporting reproducible experimentation, automated retraining, near real-time rate updates, and production pricing automation.
-        \item Evaluated time-series, regression ensemble, and rule-based optimization approaches to improve forecasting accuracy and pricing decision quality.
-        \item Partnered with BI analysts and leadership on feature analysis, benchmarking, A/B testing, and translation of model outputs into operational business decisions.
-        \item Developed CI/CD workflows, engineering documentation, and reproducible ML tooling to improve maintainability and deployment consistency.
+        \item developed a predictive model and decision algorithm for dynamic pricing and demand detection across a multi-property portfolio. 
+        \item Deployed models into production using GCP to store, ingest, query, train, monitor, real-time updates, output data to a custom Revenue Management System for our internal needs
+        \item Partnered with BI analyst, stakeholders, and cloud engineer to design, benchmark, and translate model outputs into operational business decision. 
     \end{itemize}
     }
     \vspace{5pt}
@@ -145,7 +144,7 @@
     \begin{itemize}[noitemsep, topsep=0pt]
         \item Researched inverse design problems in photonics using residual tandem neural networks (forward + inverse models)
         \item Implemented residual blocks to stabilize training and improve accuracy for ill-posed inverse mappings
-        \item Built data pipelines and training/validation workflows; tuned hyperparameters and evaluated generalization under noise
+        \item Built data pipelines and training/validation workflows; tuned hyperparameters and evaluated generalization under noise + accuracy percentages for model + benchmarking dataset size 
         \item Published peer-reviewed papers; contributed methods, experiments, and writing
     \end{itemize}
     }

@@ -69,7 +69,6 @@
     \noindent \textbf{PUBLICATIONS} \hrulefill
     \vspace{2.5pt}
     
-    {\footnotesize
     \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
         \item Estakhri, N.M., Zahraii, P., Kashanchi, S., Estakhri, N.M. (2024). ``Predictive residual neural networks for optical trapping of small particles.'' \textit{Optical Trapping and Optical Micromanipulation XXI}, SPIE, Vol. 13112, pp. 111--116.
         \item Zahraii, P., Kashanchi, S., Estakhri, N.M., Estakhri, N.M. (2025). ``Machine learning-driven prediction and inverse design of optical forces near gradient metasurfaces.'' \textit{Optical Trapping and Optical Micromanipulation XXII}, SPIE, PC135800J.
@@ -77,7 +76,6 @@
         \item Zahraii, P.A. (2025). ``Implementation of Residual Tandem Neural Networks for Photonic Inverse Design.'' Master's Thesis, Chapman University.
         \item Zahraii, P., Kashanchi, S., Estakhri, N.M., Estakhri, N.M. (2025). ``Machine learning-assisted characterization of optical forces near gradient metasurfaces.'' \textit{SMT 2025}, APS.
     \end{itemize}
-    }
 
     \vspace{5pt}
     %% PROFESSIONAL EXPERIENCE %%
@@ -89,17 +87,15 @@
         \textbf{Kazvu Labs}, Irvine, CA & November 2025 -- Present \\
     \end{tabular*}
     \noindent Software Engineer II \\
-    \textit{\textbf{Summary:} Built robotics software for real-time and offline systems across perception, vision, motion planning, and broader robotics applications, deployed in both simulation and hardware.}
+    \textit{\textbf{Summary:} Built robotics software for real-time and offline systems across perception, vision, motion planning, and  robotics integration, deployed in both simulation and hardware.}
 
     \begin{itemize}[noitemsep, topsep=0pt]
-        \item Designed and developed end-to-end robotic perception pipelines proprietary offline processing libraries in Python and C++ with wrappers for libraries and custom logic to process feature rich dense point clouds with unit testing PCL Open3D optimization with parallel processing 
-        \item Meshing Segmentation Augmentation Classification of point clouds for automated path planning 
-        \item Target Point generation + uniform normals, coverage planning edge detection -> data packaging and unpackaging pipelines 
-        \item Target point sorting + offline processing for motion planning with robodk 
-        \item Custom post processor class for ros2 control: cartesian compliance controller. Testing final robot trajectories in simulation and validation on the hardware. 
-        \item Realtime sensor data processing -> NVBlox for NAV/SLAM + safety 
-        \item 4D Lidar -> volumetric occupancy grid for intrusion detection systems (safety)
-        \item RGB-D Camera -> feature-based and global frame alignment and depth estimation measurements 
+        \item Built a point-cloud processing pipeline that segmented and classified feature-rich, dense 3D scenes and converted geometry into usable meshes.
+        \item Engineered target-point generation algorithms from segmented point clouds for path planning and coverage optimization.
+        \item Automated target-point ingestion and robot-pose generation using RoboDK offline programming software.
+        \item Implemented a custom post-processor to convert robot poses into controller-compatible command data.
+        \item Integrated real-time LiDAR and RGB-D camera data to detect intrusions and people in commercial safety environments.
+        \item Validated robotics software in Isaac Sim and URSim before deployment on NVIDIA Jetson embedded devices.
     \end{itemize}
     \vspace{5pt}
 
@@ -124,7 +120,7 @@
     \textit{\textbf{Summary:} Applied neural networks to inverse design problems, contributing to peer-reviewed research in nanophotonics and optics as part of a master's thesis.}
 
     \begin{itemize}[noitemsep, topsep=0pt]
-        \item Developed deep learning models for inverse design of nanophotonic and optical metastructures, addressing the bottlenecks of traditional computational workflows for complex deterministic design problems.
+        \item Trained deep learning models for inverse design of nanophotonic and optical metastructures, addressing the bottlenecks of traditional computational workflows for complex deterministic design problems.
         \item Designed a residual tandem neural network with a forward predictive model ($R^2=0.985$) for response validation and an inverse generative model ($R^2=0.780$) for metastructure design.
         \item Explored region-based optical spectrum targeting, to generate specialized meta-surface geometries while reducing dataset generation requirements. 
         \item Published peer-reviewed research, presented technical work at conferences, and earned scholarships and grants.

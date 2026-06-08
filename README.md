@@ -7,92 +7,122 @@
   <div id="badges">
     <a href="https://www.linkedin.com/in/pontheazahraii/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="20"/>
-    <img src="https://komarev.com/ghpvc/?username=pontheazahraii&style=flat-square&color=blue" alt="Profile Views" height="20"/>
     </a>
+    <img src="https://komarev.com/ghpvc/?username=pontheazahraii&style=flat-square&color=blue" alt="Profile Views" height="20"/>
   </div>
 </div>
 
-## :octocat: About Me 
-I’m a Machine Learning Engineer and researcher based in Orange County, CA. My work focuses on computer vision, 3D perception, and ML systems, alongside research in inverse photonic design using residual tandem neural networks.
+---
 
-I enjoy challenging tasks that push me to learn and grow, whether it's solving complex problems or building innovative solutions. I thrive in environments where creativity and curiosity are encouraged, and I am always eager to tackle new and exciting projects.
+## :octocat: About Me
 
-I chose computer science because it is the intersection between creativity and logic. It allows me to approach problems with both analytical thinking and imaginative solutions, making every project an opportunity to innovate and learn something new.
+Software Engineer focused on robotics perception, 3D vision systems, and machine learning infrastructure.
+
+My work spans point-cloud processing, RGB-D sensing, robotic software, motion planning pipelines, and real-time perception systems for autonomous platforms. I primarily work in Python and C++, building systems across simulation and hardware deployment.
+
+I also conduct research in inverse photonic design using residual tandem neural networks, with publications in SPIE, IEEE, and APS conferences.
+
+---
 
 ## :briefcase: Experience
 
-- Machine Learning Engineer II — Hansji Corporation (June 2025–Present)
-  - Lead design of computer-vision and ML systems for automation platforms; build 3D perception pipelines with RGB‑D sensing, segmentation, and reconstruction. Drive internal Python tooling, CI/CD, and package standards.
-- Machine Learning Engineer I — Hansji Corporation (June 2024–June 2025)
-  - Built ML systems for the company’s Revenue Management System: forecasting, dynamic pricing, and A/B evaluation. Implemented end‑to‑end MLOps and GCP integration.
-- Graduate Researcher — Estakhri Lab, Chapman University (Aug 2023–Present)
-  - Research on residual tandem neural networks for inverse photonic design; data pipelines, training/validation, and peer‑reviewed publications.
+### Kazvu Labs: Software Engineer II  
+November 2025 – Present
+
+- Built robotics software for perception, motion planning, and robotic integration systems.
+- Developed 3D point-cloud segmentation, reconstruction, and meshing pipelines.
+- Engineered target-point generation and robotic path-planning workflows.
+- Integrated LiDAR and RGB-D sensing systems for real-time safety monitoring.
+- Validated robotics systems in Isaac Sim and URSim before deployment on NVIDIA Jetson embedded devices.
+
+### Hansji Corporation: Machine Learning Engineer II  
+June 2024 – November 2025
+
+- Developed forecasting and pricing algorithms for a production Revenue Management System.
+- Built cloud-integrated ML infrastructure and real-time pricing pipelines on GCP.
+- Collaborated with BI analysts and stakeholders on operational deployment systems.
+
+### Chapman University, Estakhri Lab: Researcher  
+August 2023 – August 2025
+
+- Researched residual tandem neural networks for inverse photonic design.
+- Developed forward and inverse deep-learning models for metastructure optimization.
+- Published peer-reviewed research in nanophotonics and optical systems.
+
+---
 
 ## :toolbox: Skills
 
-
-### 🛠️ **Languages & Tools**
 <div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original-wordmark.svg" title="SQLite" alt="SQLite" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-line-wordmark.svg" title="TensorFlow" alt="TensorFlow" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original-wordmark.svg" title="OpenCV" alt="OpenCV" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg" title="NumPy" alt="NumPy" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original-wordmark.svg" title="Pandas" alt="Pandas" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original-wordmark.svg" title="Anaconda" alt="Anaconda" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="VSCode" alt="VSCode" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/latex/latex-original.svg" title="LaTeX" alt="LaTeX" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/googlecloud/googlecloud-original-wordmark.svg" title="Google Cloud Platform" alt="GCP" width="40" height="40" style="background:#fff;border-radius:8px;padding:4px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" title="Python" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="C/C++" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" title="SQL" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" title="Docker" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" title="Git" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" title="Linux" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" title="LaTeX" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original-wordmark.svg" title="ROS2" width="45" height="45"/>
 </div>
 
-## :mortar_board: Education
+---
 
-- Chapman University
-  - Master’s in Electrical Engineering & Computer Science (2025)
-    - Thesis: Residual Tandem Neural Networks for Photonic Inverse Design
-  - Bachelor’s in Computer Science, Neuroscience minor (2024)
+## :mortar_board: Education
+### Chapman University, Orange, CA
+
+M.S. Electrical Engineering & Computer Science, 2025  
+Thesis: *Implementation of Residual Tandem Neural Networks in Inverse Photonic Design*
+
+B.S. Computer Science, 2024  
+Minor in Neuroscience  
+
+
+---
 
 ## :books: Publications
 
+- Predictive residual neural networks for optical trapping of small particles.
+- Machine learning-driven prediction and inverse design of optical forces near gradient metasurfaces.
+- A Deep Learning Framework for Prediction and Inverse Design of Nanoscale Optical Forces near Gradient Metasurfaces.
+- Implementation of Residual Tandem Neural Networks for Photonic Inverse Design.
+- Machine learning-assisted characterization of optical forces near gradient metasurfaces.
 
-- [Predictive residual neural networks for optical trapping of small particles.](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13112/131120G/Predictive-residual-neural-networks-for-optical-trapping-of-small-particles/10.1117/12.3028354.short)
-- [Machine learning-driven prediction and inverse design of optical forces near gradient metasurfaces.](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC13580/PC135800J/Machine-learning-driven-prediction-and-inverse-design-of-optical-forces/10.1117/12.3065873.short)
-- [A Deep Learning Framework for Prediction and Inverse Design of Nanoscale Optical Forces near Gradient Metasurfaces.](https://ieeexplore.ieee.org/abstract/document/11174212/)
-- [Implementation of Residual Tandem Neural Networks for Photonic Inverse Design.](https://search.proquest.com/openview/91dad96f56d841d20bb9909134048251/1?pq-origsite=gscholar&cbl=18750&diss=y)
-- [Machine learning-assisted characterization of optical forces near gradient metasurfaces](https://archive.aps.org/smt/2025/mar-r00/267/)
+---
 
 ## :envelope: Get in Touch 
 
-- Portfolio: [My Portfolio Website](https://github.com/)
-- Website: [My Personal Website](https://ponthea.com/)
-- Email: ponthea@zahraii.com
-- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/pontheazahraii/)
-- My Blog: [My Medium Page](https://medium.com/@pontheazahraii)
+- Website: [ponthea.com](https://ponthea.com)
+- LinkedIn: [linkedin.com/in/pontheazahraii](https://linkedin.com/in/pontheazahraii)
+- Email: [pontheazahraii@gmail.com](mailto:pontheazahraii@gmail.com)
+- Blog: [medium.com/@pontheazahraii](https://medium.com/@pontheazahraii)
 
+Feel free to reach out regarding robotics, perception systems, 3D vision, or machine learning engineering.
 
-Feel free to reach out if you're interested in exploring software development or just want to chat! :wave:
+---
 
-## :page_facing_up: Resume Build
+## :page_facing_up: Resume
+
+This repository contains the LaTeX source used to generate my professional resume.
+
+> Resume materials and personal branding assets are protected under the repository license and may not be redistributed or reused without permission.
+
+### Build
+
+bash scripts/resume.sh 
 
 - Source: `docs/resume.tex`
-- Build: `scripts/resume.sh` generates `build/PontheaZahraii.pdf` and other LaTeX artifacts under `build/`.
+- Output: `build/PontheaZahraii.pdf`
 
-Example:
+---
 
-```bash
-# Build into build/
-scripts/resume.sh
-```
+## :rocket: Automation
 
-## :rocket: Automated Releases
+- GitHub Actions automatically build the resume PDF on updates to `docs/resume.tex`
+- CI workflows are located under `.github/workflows/`
 
-- GitHub Action: `.github/workflows/release-resume.yml` builds the PDF and creates a timestamped GitHub Release when `docs/resume.tex` changes on `main`.
-- Manual run: trigger via the "Run workflow" button under Actions.
-- Release tag format: `resume-YYYYMMDD-HHMMSS` (UTC).
+---
 
-## :bar_chart: My Stats 
+## :bar_chart: GitHub Stats
+
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pontheazahraii&theme=github_dark" alt="GitHub Profile Summary"/>
 </div>
